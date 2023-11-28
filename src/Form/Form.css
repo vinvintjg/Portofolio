@@ -1,0 +1,34 @@
+form {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.form-input {
+  padding: 0.7rem;
+  border-radius: 20px;
+  border: solid 1 px black;
+}
+
+textarea {
+  height: 300px;
+}
+
+.form-button {
+  margin-top: 2rem;
+  padding: 12px 20px;
+  align-items: center;
+  border-radius: 70px;
+  background: linear-gradient(60deg, #35a8e1 23.54%, #40d8ab 84.12%);
+  border: none;
+  color: #fff;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  transition: 0.5s ease;
+}
+
+.form-button:hover {
+  color: #252525;
+  cursor: pointer;
+}

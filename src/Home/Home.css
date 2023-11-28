@@ -1,0 +1,206 @@
+* {
+  font-family: poppins, "sans-serif";
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  height: 823px;
+  flex-shrink: 0;
+  background-image: url("https://s3-alpha-sig.figma.com/img/b357/fdd7/b461d728cd953005fc1fea12bc0c54de?Expires=1702252800&Signature=G~jdKOLcxfwzAB0XweR1vEuALb-TAWaeZzXLFXGpky~sQmN5jh6c~FkXpDyyoewMO2-XxBAI1og9v3w12ZwkRTFhkzRECmCwR9r~tgxuiQrtxiRodah7yntYNttx3vwrmy2NLwIGEaLHur5sVcd53cRXDJOwjNl43D7BKOOhqLP1CT1WorN7z8bNlMUr4qlJ0eYAE5kebjrsY9HPpTWY5zX6yQUfsMpJxdqvlUsf5StvowzTH30Ah6dtprhtMGN-1poQoLVDeBNNQFs1DoOwDDdMRpCvcYJFy1gnIpPpjlNJt3w8AVJDlCgov~B2fK5z2MJvW9gzAVypQNn1CaV-Xg__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4");
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+#section-skill {
+  background-image: url("../Asset/Pattern\ Skill.png");
+  background-repeat: no-repeat;
+  background-position: right top;
+  background-position: 105%;
+}
+
+.hero-section {
+  width: 100%;
+  padding: 50px 204px;
+  display: flex;
+  align-items: center;
+}
+
+.grid-left {
+  width: 50%;
+  display: grid;
+  justify-content: center;
+  flex-direction: column;
+  row-gap: 14px;
+  padding: 0;
+  margin: 0;
+}
+
+.grid-right {
+  width: 50%;
+  padding: 0;
+  margin: 0;
+}
+
+p {
+  color: #252525;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 158.023%;
+}
+
+.button-primary {
+  display: flex;
+  width: 263px;
+  height: 72px;
+  padding: 18px 42px;
+  align-items: center;
+  gap: 24px;
+  flex-shrink: 0;
+  border-radius: 70px;
+  background: linear-gradient(60deg, #35a8e1 23.54%, #40d8ab 84.12%);
+  border: none;
+  color: #fff;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 148.523%; /* 35.645px */
+  transition: 0.5s ease;
+}
+
+.button-primary:hover {
+  color: #252525;
+  cursor: pointer;
+}
+
+section {
+  padding: 50px 200px;
+  transition: 0.6s ease;
+}
+
+.section-titile {
+  color: rgba(0, 0, 0, 0.8);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 148.523%;
+}
+
+.section-title-1 {
+  color: rgba(0, 0, 0, 0.8);
+  padding-right: 0.5rem;
+}
+
+.section-title-2 {
+  color: rgba(53, 168, 225, 0.8);
+}
+
+.section-content {
+  padding: 50px 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.font-bold {
+  color: rgba(0, 0, 0, 0.8);
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 148.523%;
+}
+
+.font-light {
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 180%;
+}
+
+.font-normal {
+  color: rgba(0, 0, 0, 0.8);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 180%;
+}
+
+.bar {
+  display: flex;
+  flex-direction: column;
+}
+
+.card-skill {
+  width: 168px;
+  height: 168px;
+  border-radius: 70px;
+  background: #fff;
+  box-shadow: 4px 12px 24px 0px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 16px;
+  transition: box-shadow 0.5s ease;
+}
+
+.card-skill:hover {
+  box-shadow: 4px 12px 24px 0px rgba(64, 216, 168, 0.35);
+}
+.font-left {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.card-skill-section {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.bar-input {
+  width: 100%;
+  height: 16px;
+  border-radius: 70px;
+  background-color: #d9d9d9;
+}
+
+.bar-output {
+  height: 16px;
+  border-radius: 70px;
+  background: var(
+    --color,
+    linear-gradient(112deg, #35a8e1 14.53%, #40d8ab 86.94%)
+  );
+}
+
+.bar-top {
+  display: flex;
+  justify-content: space-between;
+}
+
+.padding-bottom-16 {
+  padding-bottom: 16px;
+}
+
+.font-about {
+  padding-left: 130px;
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  flex-direction: column;
+}
